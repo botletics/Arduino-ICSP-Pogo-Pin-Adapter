@@ -1,4 +1,4 @@
-<h1>ICSP Pogo Pin Adapter</h1>
+<h1>Arduino ICSP Pogo Pin Adapter</h1>
 
 ## Overview
 
