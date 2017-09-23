@@ -31,7 +31,7 @@ of flash, ATtiny45 has 4KB, and ATtiny85 has 8KB and is the most common.
 This section provides details on how to design your PCB for use with this pogo pin adapter.
 - In order to use this pogo pin adapter you need to design your PCB with six test points, arranged in a 2x3 array with 2.54mm (0.1") spacing as shown below:
 - The SPI (MISO/MOSI/SCK/RESET) connections go to your Atmel MCU, depending on which chip you're using. Below is a list of the connections you need to make for the various chip types:
-- NOTE: If the test points are on the backside of the PCB, you need to make sure that the test points still have this physical arrangement *as viewed from the bottom of the PCB*. This is extremely important, because if you simply use the EAGLE mirror tool it will show you the bottom layer in blue as viewed from the front!
+- NOTE: If the test points are on the backside of the PCB, you need to make sure that the test points still have this physical arrangement **as viewed from the bottom of the PCB**. This is extremely important, because if you simply use the EAGLE mirror tool it will show you the bottom layer in blue as viewed from the front!
 - If you are using EAGLE you can find pre-made test points libraries from the [Sparkfun EAGLE libraries](https://github.com/sparkfun/SparkFun-Eagle-Libraries) under "SparkFun-Connectors.lbr" named "TEST-POINT".
 
 ### Kit Assembly
@@ -44,9 +44,9 @@ if needed
 - Screw the smaller board on top of the standoffs with the remaining two screws.
 - It's time to solder the pogo pins in place! First place a piece of tape on the bottom of the larger board. This is to keep the pogo pins at the same level.
 - Now place the six pogo pins (facing up) through the holes on the small PCB and down through the holes on the bottom PCB until they rest on the tape.
-- Keep the assembly on a flat surface and first solder the pogo pins to the *upper* PCB so that the pins don't move in place.
+- Keep the assembly on a flat surface and first solder the pogo pins to the **upper** PCB so that the pins don't move in place.
 - Now remove the piece of tape from the bottom PCB and solder them to the large board.
-- To finish the assembly, solder the 2x3 female header block from the bottom of the larger board. This part plugs into the Arduino ICSP header. Alternatively, you can solder a [2x3 header](https://www.sparkfun.com/products/10877) to the *bottom* of the larger PCB and use a [2x3 ribbon cable](https://www.amazon.com/Connector-Cable-SODIAL-2-54mm-12-inch/dp/B01GNVN48O/ref=sr_1_8?ie=UTF8&qid=1506182997&sr=8-8&keywords=2x3+idc+ribbon+cable) as an extension. However, make sure you plug the cable into the Arduino ICSP header the right way!
+- To finish the assembly, solder the 2x3 female header block from the bottom of the larger board. This part plugs into the Arduino ICSP header. Alternatively, you can solder a [2x3 header](https://www.sparkfun.com/products/10877) to the **bottom** of the larger PCB and use a [2x3 ribbon cable](https://www.amazon.com/Connector-Cable-SODIAL-2-54mm-12-inch/dp/B01GNVN48O/ref=sr_1_8?ie=UTF8&qid=1506182997&sr=8-8&keywords=2x3+idc+ribbon+cable) as an extension. However, make sure you plug the cable into the Arduino ICSP header the right way!
 - or you can simply use male-to-female [Dupont wires](https://www.amazon.com/Haitronic-Multicolored-Breadboard-Arduino-raspberry/dp/B01LZF1ZSZ/ref=sr_1_3?ie=UTF8&qid=1506189503&sr=8-3&keywords=dupont+wires+m+to+f) with the default configuration, making sure you connect the pins appropriately. 
 
 ### Using the Adapter
