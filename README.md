@@ -7,6 +7,8 @@ It is specifically designed for Atmel microcontrollers that are programmable via
 flashing the Arduino bootloader to the chip. The only thing you have to do is design your PCB with six test
 point pads placed in a standard 2x3 ICSP configuration with 2.54mm (0.1") spacing.
 
+You can order a loose kit or fully-assembled adapter at https://www.botletics.com/products
+
 ## Supported Hardware
 
 Below is a list of supported Atmel microcontrollers:
