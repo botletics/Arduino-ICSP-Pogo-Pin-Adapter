@@ -45,6 +45,7 @@ if needed
 - Keep the assembly on a flat surface and first solder the pogo pins to the *upper* PCB so that the pins don't move in place.
 - Now remove the piece of tape from the bottom PCB and solder them to the large board.
 - To finish the assembly, solder the 2x3 female header block from the bottom of the larger board. This part plugs into the Arduino ICSP header. Alternatively, you can solder a [2x3 header](https://www.sparkfun.com/products/10877) to the *bottom* of the larger PCB and use a [2x3 ribbon cable](https://www.amazon.com/Connector-Cable-SODIAL-2-54mm-12-inch/dp/B01GNVN48O/ref=sr_1_8?ie=UTF8&qid=1506182997&sr=8-8&keywords=2x3+idc+ribbon+cable) as an extension. However, make sure you plug the cable into the Arduino ICSP header the right way!
+- or you can simply use male-to-female [Dupont wires](https://www.amazon.com/Haitronic-Multicolored-Breadboard-Arduino-raspberry/dp/B01LZF1ZSZ/ref=sr_1_3?ie=UTF8&qid=1506189503&sr=8-3&keywords=dupont+wires+m+to+f) with the default configuration, making sure you connect the pins appropriately. 
 
 ### Using the Adapter
 
